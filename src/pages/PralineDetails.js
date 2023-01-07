@@ -4,7 +4,7 @@ export function PralineDetails(props){
     const {name} = useParams();
     const {pralines} = props;
     const praline = pralines.find(obj => obj.name === name);
-    console.log(praline);
+    console.log(praline.img);
 
     return(
         <div style={{display: "flex"}}>

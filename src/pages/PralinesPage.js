@@ -7,7 +7,6 @@ import DropdownItem from "react-bootstrap/DropdownItem";
 
 export function PralinesPage(props){
     const {pralines, vullingen} = props;
-    const [counter, setCounter] = useState(0);
     const [color, setColor] = useState("");
     const [vulling, setVulling] = useState("");
 
