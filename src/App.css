@@ -1,38 +1,176 @@
-.App {
+
+.nav-buttons{
+  text-decoration: none;
+  color: black;
+  float: right;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.nav-buttons:hover{
+  color: #BF9004;
+}
+
+
+.logo{
+  height: auto;
+  width: 300px;
+  margin: 20px;
+}
+
+
+h1{
   text-align: center;
+  font-size: 50px;
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  margin-top: 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.col{
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.col img {
+  width: 100%;
+  margin: 4px;
 }
+
+.about_img{
+  width: 600px;
+  height: auto;
+  margin: 10%;
+}
+
+.about_text{
+  width: 35%;
+  text-align: left;
+  float: right;
+  margin: 10%;
+
+}
+
+.about_text_h2{
+  font-size: 40px;
+  margin-bottom: 50px;
+  text-align: inherit;
+}
+
+.about_text_h3{
+  font-size: 25px;
+  line-height: 1.8;
+}
+
+
+.m-0{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+
+}
+
+.m-0:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.1);
+}
+
+.editButtons{
+  margin: 5px;
+}
+
+
+
+.myCard{
+  margin: 10px;
+}
+
+.filter{
+  height: 100%;
+  width: 300px;
+  margin-top: 75px;
+  margin-left: 200px;
+  margin-right: 75px;
+}
+
+#filter_button{
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  margin: 10px;
+}
+
+#inner_filter{
+  height: 200px;
+  float: left;
+}
+
+#card_name{
+  color: black;
+  text-decoration: none;
+}
+
+#add_praline_btn{
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin: 20px;
+  float: left;
+}
+
+#filter_button_vulling{
+  border: none;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  margin: 15px;
+  margin-left: 0px;
+
+}
+
+.count{
+  font-size: 20px;
+  float: left;
+}
+
+.login{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+}
+
+.input_login{
+  width: 450px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#login_btn {
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  border: none;
+  background-color: #BF9004;
+}
+
+#login_btn:hover{
+  background-color: grey;
+}
+
+
