@@ -6,8 +6,8 @@ import {HashRouter, Link, Route, Routes} from "react-router-dom";
 import {PralinesPage} from "./pages/PralinesPage";
 import {AboutPage} from "./pages/AboutPage";
 import {HomePage} from "./pages/HomePage";
-import {PralineDetails} from "./pages/PralineDetails";
 import {PRALINES_DATA, VULLINGEN_DATA} from "./data";
+import {PralineDetails} from "./pages/PralineDetails";
 
 function App(){
     return (
@@ -32,8 +32,8 @@ function App(){
                     <Route index path="/" element={<HomePage/>}/>
                     <Route index path="home" element={<HomePage/>}/>
                     <Route index path="about" element={<AboutPage/>}/>
-                    <Route index path="pralines" element={<PralinesPage pralines={PRALINES_DATA}/>}/>
-                    <Route index path="/details/:id" element={<PralineDetails/>}/>
+                    <Route index path="pralines" element={<PralinesPage pralines={PRALINES_DATA} vullingen={VULLINGEN_DATA}/>}/>
+                    <Route index path="details/:name" element={<PralineDetails pralines={PRALINES_DATA}/>}/>
                 </Routes>
             </HashRouter>
         </div>

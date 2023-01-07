@@ -1,5 +1,5 @@
 import {Button, Col, Row} from "react-bootstrap";
-import {PralineCard} from "./cards/PralineCard";
+import {PralineCard} from "./PralineCard";
 
 
 export function Pralines(props){

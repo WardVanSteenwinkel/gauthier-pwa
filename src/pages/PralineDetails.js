@@ -1,18 +1,15 @@
 import {useParams} from "react-router-dom";
-import {PRALINES_DATA} from "../data";
 
-
-
-export function PralineDetails(){
-    const {pralines} = PRALINES_DATA;
-    const {id} = useParams();
-
-    const praline = pralines.find(obj => obj.id === id);
+export function PralineDetails(props){
+    const {name} = useParams();
+    const {pralines} = props;
+    const praline = pralines.find(obj => obj.name === name);
+    console.log(praline);
 
     return(
         <div style={{display: "flex"}}>
             <div style={{margin: "50px 200px"}}>
-                <img alt={"praline afbeelding"} src={`${praline.image}`} style={{width: "600px", height: "auto"}}/>
+                <img alt={"praline afbeelding"} src={`${praline.img}`} style={{width: "600px", height: "auto"}}/>
             </div>
             <div style={{margin: "50px 100px", alignItems:"left"}}>
                     <h1 style={{float: 'left'}}>{praline.name}</h1>
