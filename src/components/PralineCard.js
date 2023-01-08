@@ -1,7 +1,5 @@
 import {Card} from "react-bootstrap";
 import {Link} from "react-router-dom";
-import {useState} from "react";
-import {PralineDetails} from "../pages/PralineDetails";
 
 export function PralineCard(props){
     const {praline} = props;
