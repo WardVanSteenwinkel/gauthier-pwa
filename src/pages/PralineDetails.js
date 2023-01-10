@@ -7,11 +7,11 @@ export function PralineDetails(props){
     console.log(praline.img);
 
     return(
-        <div style={{display: "flex"}}>
+        <div style={{display: "flex"}} className="details">
             <div style={{margin: "50px 200px"}}>
-                <img alt={"praline afbeelding"} src={`${praline.img}`} style={{width: "600px", height: "auto"}}/>
+                <img alt={"praline afbeelding"} src={`${praline.img}`} style={{width: "600px", height: "auto"}} id="details_img"/>
             </div>
-            <div style={{margin: "50px 100px", alignItems:"left"}}>
+            <div style={{margin: "50px 100px", alignItems:"left"}} id="details_div">
                     <h1 style={{float: 'left'}}>{praline.name}</h1>
                     <p style={{fontSize: "25px", float:'left'}}>{praline.description}</p>
                 <ul style={{fontSize: "20px"}}>

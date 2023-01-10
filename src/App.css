@@ -11,6 +11,24 @@
   color: #BF9004;
 }
 
+@media screen and (max-width: 800px){
+  .nav-buttons{
+    float: none;
+    width: 100%;
+    display: flex;
+  }
+  .filter{
+    display: flex;
+  }
+  .about_img{
+    max-width: 300px;
+    display: block;
+  }
+  #details_img{
+    max-width:300px;
+    margin-left: 0;
+  }
+}
 
 .logo{
   height: auto;
@@ -36,10 +54,6 @@ h2{
   display: flex;
 }
 
-
-.col{
-
-}
 
 .col img {
   width: 100%;
