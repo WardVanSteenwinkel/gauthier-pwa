@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f40bc3e.css",
+    "main.js": "/static/js/main.de097f4b.js",
+    "static/js/787.1f4c859e.chunk.js": "/static/js/787.1f4c859e.chunk.js",
+    "static/media/specu3.jpg": "/static/media/specu3.7f73dc3c1bfe321bc4ae.jpg",
+    "static/media/specu1.jpg": "/static/media/specu1.ea46cb1cdbaead58b8f7.jpg",
+    "static/media/WhatsApp Image 2021-12-21 at 13.46.58.jpeg": "/static/media/WhatsApp Image 2021-12-21 at 13.46.58.98dfb5fdc84878463572.jpeg",
+    "static/media/WhatsApp Image 2021-12-21 at 13.46.42.jpeg": "/static/media/WhatsApp Image 2021-12-21 at 13.46.42.f03cc69d08699e1ae6a7.jpeg",
+    "static/media/about_us.jpg": "/static/media/about_us.f0212d880af3c40a9b44.jpg",
+    "static/media/WhatsApp Image 2021-12-21 at 13.46.47.jpeg": "/static/media/WhatsApp Image 2021-12-21 at 13.46.47.1350a2c3475c254ec176.jpeg",
+    "static/media/271092285_732811521013526__n.jpg": "/static/media/271092285_732811521013526_4360940397076505754_n.cd075f4a4bdcb320f73d.jpg",
+    "static/media/271246139_683325369323589__n (1).jpg": "/static/media/271246139_683325369323589_2631719329763747776_n (1).d22fb2d88bf2d9058d66.jpg",
+    "static/media/4.jpg": "/static/media/4.0f4b9b752943c0d49bff.jpg",
+    "static/media/3.jpg": "/static/media/3.a110b96bb22d103ddedf.jpg",
+    "static/media/271257214_256375349797735__n.jpg": "/static/media/271257214_256375349797735_6472052609466035286_n.73bbbd684b00cdc74706.jpg",
+    "static/media/271276791_508157460502944__n (1).jpg": "/static/media/271276791_508157460502944_7127541849248175643_n (1).f8a5dc3b5ccd80c3a2da.jpg",
+    "static/media/271234155_319699276749957__n.jpg": "/static/media/271234155_319699276749957_4000328248914636269_n.d206dd9094a644bb4d1a.jpg",
+    "static/media/271440657___n.jpg": "/static/media/271440657_3077824709200500_4383051319098221704_n.4a633be2fdd4b179662e.jpg",
+    "static/media/271383545_447786283705312__n.jpg": "/static/media/271383545_447786283705312_6943723555794085727_n.4db4488d7668f21f47b3.jpg",
+    "static/media/271512681_660544671765545__n.jpg": "/static/media/271512681_660544671765545_8066957524553581099_n.c8a4571ac2911d256a63.jpg",
+    "static/media/271408883_476932437343657__n.jpg": "/static/media/271408883_476932437343657_3158691092677106472_n.37d5ac2707d744317199.jpg",
+    "static/media/271483798_312759560865425__n (1).jpg": "/static/media/271483798_312759560865425_7836681827812214449_n (1).6de281c44a48e5647ed6.jpg",
+    "static/media/270754946_955818591722313__n.jpg": "/static/media/270754946_955818591722313_8739271831797087872_n.8aa3857e86367780a416.jpg",
+    "static/media/270792671___n.jpg": "/static/media/270792671_1386270578471620_5863187730809145128_n.2dd124ebe3e209caf99a.jpg",
+    "static/media/logo_goud_zonder_ring_dik-removebg-preview.png": "/static/media/logo_goud_zonder_ring_dik-removebg-preview.138d4175a835bacf35ec.png",
+    "service-worker.js": "/service-worker.js",
+    "static/media/1.jpg": "/static/media/1.b30047ec743c928737d9.jpg",
+    "static/media/2.jpg": "/static/media/2.184d00ff746536500846.jpg",
+    "index.html": "/index.html",
+    "main.2f40bc3e.css.map": "/static/css/main.2f40bc3e.css.map",
+    "main.de097f4b.js.map": "/static/js/main.de097f4b.js.map",
+    "787.1f4c859e.chunk.js.map": "/static/js/787.1f4c859e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f40bc3e.css",
+    "static/js/main.de097f4b.js"
+  ]
+}
